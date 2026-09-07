@@ -1,0 +1,132 @@
+:root {
+    --zielony: #3CA666;
+    --ciemnozielony: #0A6446;
+    --szary: #B7B7B7;
+    --ciemnoszary: #222222;
+}
+
+*{
+    font-family: Arial;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--ciemnozielony);
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 15%;
+}
+
+.firsthalf{
+    display: flex;
+    align-items: center;
+    background-color: #c7cece;
+    width: 60%;
+    height: 100%;
+}
+
+.secondhalf{
+    background-color: var(--szary);
+    width: 40%;
+    height: 100%;
+}
+
+.textcenter{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+}
+
+.textcenter > img {
+    width: auto;
+    height: auto;
+    margin-right: 5%;
+}
+
+.side{
+    justify-self: flex-end;
+    border-top-left-radius: 5%;
+    width: 40%;
+    height: 84%;
+    background-color: #c7cece;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+}
+
+.upper{
+    align-items: center;
+    font-size: larger;
+    width: 100%;
+    height: 50%;
+    padding-left: 10%;
+}
+
+.lower{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    width: 100%;
+    height: 50%;
+}
+
+.lower > img{
+    width: fit-content;
+    height: fit-content;
+}
+
+.kbox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.k1{
+    width: 8%;
+    height: 50%;
+    background-color: var(--zielony);
+}
+
+.k2{
+    width: 8%;
+    height: 50%;
+    background-color: var(--ciemnozielony);
+}
+
+.k3{
+    width: 8%;
+    height: 50%;
+    background-color: var(--szary);
+}
+
+.k4{
+    width: 8%;
+    height: 50%;
+    background-color: var(--ciemnoszary);
+}
+
+footer{
+    width: 60%;
+    height: 5%;
+    font-size: larger;
+    color: white;
+    justify-items: center;
+    align-content: center;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    background-color: var(--zielony);
+}
